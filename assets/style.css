@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  @media only screen and (min-width: 650px) {
+    li {
+      list-style: none;
+    }
+    .main {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+    }
+    .container {
+      width: 403.2px;
+      border: 0.087vw solid #c4c4c4;
+      box-sizing: border-box;
+      border-radius: 9.999px;
+    }
+    .header {
+      background-color: #ffdc40;
+      width: 100%;
+      height: 28.648px;
+      border-top-left-radius: 9.999px;
+      border-top-right-radius: 9.999px;
+      margin-bottom: 10px;
+      margin-top: -0.3px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 31.104px;
+    }
+    .image-sort {
+      display: flex;
+      justify-content: right;
+    }
+    .image-sort img {
+      margin-right: 23.04px;
+      margin-top: 18.432px;
+      width: 34.56px;
+      cursor: pointer;
+    }
+  
+    .image-reverse {
+      display: flex;
+      justify-content: right;
+    }
+    .image-reverse img {
+      margin-right: 23.04px;
+      margin-top: 18.432px;
+      width: 34.56px;
+      display: none;
+      cursor: pointer;
+    }
+    .inp-list input {
+      width: 218.88px;
+      border: none;
+      outline: none;
+      margin-right: 62.36px;
+    }
+    input[type="text"] {
+      font-size: 14.976px;
+      font-family: "Times New Roman", Times, serif;
+    }
+    .inp-div {
+      margin-top: 10.368px;
+      width: 345.6px;
+      max-height: 247.997px;
+      border: 0.087vw solid #c4c4c4;
+      box-sizing: border-box;
+      border-radius: 9.216px;
+      margin-left: 29.952px;
+      margin-bottom: 25.344px;
+    }
+    .inp-list {
+      display: flex;
+      align-items: center;
+      font-size: 11.52px;
+      padding: 11.52px 11.52px 11.52px 16.52px
+    }
+    .clear-btn {
+      margin-top: 4.608px;
+      border-radius: 50%;
+      border: 0.087vw solid #c4c4c4;
+      background: none;
+      width: 19.584px;
+      height: 19.584px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6.912px;
+    }
+    .delete-btn {
+      margin-top: 4.608px;
+      border-radius: 50%;
+      border: 0.087vw solid #c4c4c4;
+      background: none;
+      width: 19.584px;
+      height: 19.584px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6.912px;
+      cursor: pointer;
+    }
+    .clear-btn img {
+      width: 6.912px;
+      cursor: pointer;
+    }
+    .delete-btn img {
+      width: 6.912px;
+      cursor: pointer;
+    }
+    .icon button {
+      background: transparent;
+    }
+    .btn-main-add {
+      margin-top: 17.28px;
+    }
+    .btn-add {
+      cursor: pointer;
+      width: 207.36px;
+      height: 56.448px;
+      background: #833ae0;
+      border-radius: 70.272px;
+      border: none;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16.128px;
+      color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 34.56px;
+    }
+    .btn-add:hover{
+      background: #613ae0;
+    }
+    .btn-container-add {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .btn-plus {
+      width: 56.448px;
+      height: 56.448px;
+      background: #9953f1;
+      border-radius: 70.272px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .btn-text {
+      margin-right: 85.6px;
+    }
+    .ul-div {
+      max-height: 174.24px;
+      margin-left:10px;
+    }
+    .li-div {
+      cursor: pointer;
+      margin:10px 0;
+    }
+    .list-text p {
+      width: 188.928px;
+      margin-right: 92.16px;
+      font-size: 14.976px;
+    }
+    .list-text {
+      display: flex;
+      align-items: center;
+      padding-left: 6.912px;
+    }
+    .delete-btn {
+      cursor: pointer;
+    }
+  }
+  /* //PHONE */
+  @media only screen and (min-width: 320px) and (max-width: 649px) {
+    li {
+      list-style: none;
+    }
+    .main {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+    }
+    .container {
+      width: 290px;
+      border: 0.087vw solid #c4c4c4;
+      box-sizing: border-box;
+      border-radius: 9.999px;
+    }
+    .header {
+      background-color: #ffdc40;
+      width: 100%;
+      height: 27.648px;
+      border-top-left-radius: 9.999px;
+      border-top-right-radius: 9.999px;
+      margin-bottom: 1.44.928px;
+      margin-top: -0.3px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 31.104px;
+    }
+    .image-sort {
+      display: flex;
+      justify-content: right;
+    }
+    .image-sort img {
+      margin-right: 23.04px;
+      margin-top: 18.432px;
+      width: 34.56px;
+      cursor: pointer;
+    }
+  
+    .image-reverse {
+      display: flex;
+      justify-content: right;
+    }
+    .image-reverse img {
+      margin-right: 23.04px;
+      margin-top: 18.432px;
+      width: 34.56px;
+      display: none;
+      cursor: pointer;
+    }
+    .inp-list input {
+      width: 160px;
+      border: none;
+      outline: none;
+      margin-right: 12px;
+      display: block;
+    }
+    input[type="text"] {
+      font-size: 14.976px;
+      font-family: "Times New Roman", Times, serif;
+    }
+    .inp-div {
+      margin-top: 10.368px;
+      width: 219px;
+      max-height: 220.997px;
+      border: 0.087vw solid #c4c4c4;
+      box-sizing: border-box;
+      border-radius: 9.216px;
+      margin-left: 29.952px;
+      margin-bottom: 25.344px;
+    }
+    .inp-list {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      font-size: 11.52px;
+      padding: 6.912px;
+  
+      margin-left: 6.912px;
+    }
+    .clear-btn {
+      margin-top: 4.608px;
+      border-radius: 50%;
+      border: 1.002px solid #c4c4c4;
+      background: none;
+      width: 19.584px;
+      height: 19.584px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6.912px;
+    }
+    .delete-btn {
+      margin-top: 4.608px;
+      border-radius: 50%;
+      border: 0.087vw solid #c4c4c4;
+      background: none;
+      width: 19.584px;
+      height: 19.584px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6.912px;
+      cursor: pointer;
+    }
+    .clear-btn img {
+      width: 6.912px;
+      cursor: pointer;
+    }
+    .delete-btn img {
+      width: 6.912px;
+      cursor: pointer;
+    }
+    .icon button {
+      background: transparent;
+    }
+    .btn-main-add {
+      margin-top: 17.28px;
+    }
+    .btn-add {
+      cursor: pointer;
+      width: 207.36px;
+      height: 56.448px;
+      background: #833ae0;
+      border-radius: 70.272px;
+      border: none;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16.128px;
+      color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 34.56px;
+    }
+    .btn-add:hover{
+      background: #613ae0;
+    }
+    .btn-container-add {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .btn-plus {
+      width: 56.448px;
+      height: 56.448px;
+      background: #9953f1;
+      border-radius: 70.272px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .btn-text {
+      margin-right: 85.6px;
+    }
+    .ul-div {
+      width: 200px;
+      max-height: 160px;
+      margin-right: 0;
+      margin-left: 5px;
+    }
+    .li-div {
+      cursor: pointer;
+      margin:7px 0;
+    }
+    .list-text p {
+      width: 200.928px;
+      margin-right: 80px;
+      font-size: 14.976px;
+    }
+    .list-text {
+      display: flex;
+      align-items: center;
+      padding-left: 6.912px;
+    }
+    .delete-btn {
+      cursor: pointer;
+    }
+  }
